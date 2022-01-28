@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="al9|6r6:iWq)@^g{J39*" x="180" y="-10"><statement name="HANDLER"><block type="device_show_leds" id="!cDA_:S~k:%F)~(i|K?$"><field name="LEDS">`
+        # # # # . 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # .
+        `</field><next><block type="device_show_leds" id="!Zk%p,H2[a(%`%v[mFB#"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="HyH|@TOUR//KL9[^:#62"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # # # # # 
+        # . # . . 
+        # . . # .
+        `</field><next><block type="device_show_leds" id="Pgx{dt:#U?4^mX)#wzQ9"><field name="LEDS">`
+        # # # # # 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="vC,M;%`:0We5cQi@%r$A"><field name="LEDS">`
+        # # # # # 
+        # . . . . 
+        # # # # # 
+        . . . . # 
+        # # # # #
+        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="iR6~xz[6!+Y)-C0uk-5m" x="0" y="0"/><block type="device_button_event" id="ra{)+_iaig~wB1ZAu~w=" x="378" y="-15"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_start_melody" id="ap{us`~3e//4`mQI|8{F"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="se-v6/9AZ;C-TAKAbxl["><field name="melody">Melodies.Dadadadum</field></block></value><next><block type="playMelody" id="-t:EFA[,@dmA{e=D9sx$"><value name="melody"><shadow type="melody_editor" id="0FQDaN*:/H;@_sp;-n;*"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="GF6+??KcRp:{:/`5olJ("><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value></block></next></block></statement></block></xml>
